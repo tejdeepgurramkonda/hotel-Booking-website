@@ -1,3 +1,21 @@
 .idea
 .vscode
 .github
+
+# Development properties files with sensitive data
+*-dev.properties
+application-dev.properties
+*.env
+.env.local
+
+# Build directories
+target/
+node_modules/
+dist/
+build/
+
+# IDE
+*.swp
+*.swo
+*~
+.DS_Store
